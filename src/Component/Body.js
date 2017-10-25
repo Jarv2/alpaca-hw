@@ -1,9 +1,13 @@
 import React from 'react'
 import Card from './Card'
 
-const Body =()=> (
-    <div className = "App">
-        <Card text="Personal information"/>
+import '../App.css'
+
+const Body =(props)=> (
+    <div>
+        <Card>
+            {props.children}
+        </Card>
     </div>
 
 )

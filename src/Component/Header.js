@@ -7,6 +7,7 @@ const component = () => (
   <h1 className="App-title Header">PORTFOLIO</h1>
 </header>
 </div>
+
 )
 
 export default component;
